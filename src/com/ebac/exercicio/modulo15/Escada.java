@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Escada {
 
-    public Escada() { // construtor de Escada que recebe o valor de n e chama o metodo recurssivo subir(int n)
+    public Escada() { // construtor de Escada que recebe o valor de n e chama o metodo recursivo subir(int n)
 
         Scanner scanner = new Scanner(System.in);
 
@@ -22,7 +22,7 @@ public class Escada {
 
         // o primeiro caso ali cobre caso o primeiro passo seja de 1 degrau que daria: n - 1.
         // o segundo caso ali cobre caso o primeiro passo seja de 2 degraus que daria: n - 2
-        //ai como eles cobrem todas as condições é so somar os 2 que vou ter quantos resultados possiveis da pra ter
+        // ai como eles cobrem todas as condições é so somar os 2 que vou ter quantos resultados possiveis da pra ter
         return (subir(n - 1)) + (subir(n - 2));
     }
 
